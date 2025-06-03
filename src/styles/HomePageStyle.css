@@ -1,0 +1,78 @@
+.homepage-header {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 450px;
+}
+
+.homepage-title {
+  font-weight: 800;
+  font-size: 27px;
+  color:rgb(72, 65, 65);
+  margin: 0;
+  margin-bottom: 7px;
+  letter-spacing: 0.01em;
+  text-align: center;
+}
+
+.homepage-subtitle {
+  font-size: 16.5px;
+  color: gray;
+  font-weight: 500;
+  margin: 0 0 18px 0;
+  opacity: 0.93;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.homepage-btn-group {
+  width: 100%;
+  max-width: 420px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+  align-items: center;
+  margin: 1.5rem auto 0 auto;
+}
+
+.homepage-action-btn {
+  color: #7F4F24;
+  background: #A68A64;
+  border: none;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  padding: 1.13rem 0;
+  width: 97%;
+  max-width: 340px;
+  box-shadow: 0 2px 14px #A68A64;
+  margin: 0 auto;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  justify-content: center;
+  transition: filter 0.15s, box-shadow 0.15s, background 0.15s;
+  outline: none;
+}
+
+.homepage-action-add {
+  background: #B6AD90;
+  color: #7F4F24;
+}
+
+.homepage-action-fetch {
+  background: #B6AD90;
+  color: #7F4F24;
+}
+
+.homepage-action-delete {
+  background: #B6AD90;
+  color: #7F4F24;
+}
+
+.homepage-action-icon {
+  font-size: 22px;
+  color: #7F4F24;
+  filter: drop-shadow(0 1px 2px #7F4F24);
+}

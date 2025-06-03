@@ -1,0 +1,68 @@
+.auth-root {
+  min-height: 100vh;
+  width: 100vw;
+  background: #B6AD90;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Inter', system-ui, sans-serif;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.auth-card {
+  width: 100%;
+  max-width: 380px;
+  background: #fff;
+  border-radius: 22px;
+  box-shadow: 0 6px 32px #A68A64;
+  padding: 2.2rem 1.25rem 2rem 1.25rem;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.auth-welcome {
+  text-align: center;
+  font-weight: 900;
+  font-size: 28px;
+  letter-spacing: 0.01em;
+  color: #582F0E;
+  margin-bottom: 1.4rem;
+  margin-top: 0.1rem;
+}
+
+.auth-tab-row {
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+  margin-bottom: 1.3rem;
+  margin-top: -0.6rem;
+  flex-wrap: wrap;
+}
+
+.auth-tab {
+  padding: 0.72rem 2.15rem;
+  border-radius: 2rem;
+  border: none;
+  background: #DAD7CD;
+  color: #582F0E;
+  font-weight: 700;
+  font-size: 16.5px;
+  letter-spacing: 0.1em;
+  box-shadow: none;
+  cursor: pointer;
+  outline: none;
+  transition: background 0.17s, color 0.17s;
+  flex: 1;
+  min-width: 94px;
+  max-width: 200px;
+}
+
+.auth-tab.active {
+  background: #582F0E;
+  color: #fff;
+  box-shadow: 0 2px 12px #33344633;
+}

@@ -1,0 +1,111 @@
+.layout-root {
+  min-height: 100vh;
+  background: #EAEFEF;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Inter', system-ui, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.layout-header {
+  width: 100vw;
+  max-width: 100vw;
+  background: #582F0E;
+  padding: 0.9rem 0.8rem 0.9rem 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1.5px solid #EAEFEF;
+  box-sizing: border-box;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.layout-app-name {
+  font-weight: 900;
+  font-size: 23px;
+  letter-spacing: 0.03em;
+  color: #DAD7CD;
+  user-select: none;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+.layout-bell {
+  font-size: 26px;
+  color: #DAD7CD;
+  cursor: pointer;
+  padding: 2px;
+  display: flex;
+  align-items: center;
+  transition: filter 0.14s;
+}
+
+.layout-main {
+  flex-grow: 1;
+  width: 100vw;
+  min-height: calc(100vh - 120px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 2.2rem 0.5rem 1.5rem 0.5rem;
+  box-sizing: border-box;
+  margin: 0;
+  transition: padding 0.2s;
+  max-width: 100vw;
+}
+
+.layout-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  background: #fff;
+  border-top: 1.3px solid #EAEFEF;
+  padding: 0.7rem 0 0.5rem 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 10;
+  box-sizing: border-box;
+  box-shadow: 0 -1px 8px #B8CFCE;
+}
+
+.layout-nav-btn {
+  background: none;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #7F4F24;
+  font-weight: 700;
+  font-size: 13.7px;
+  letter-spacing: 0.01em;
+  cursor: pointer;
+  border-radius: 12px;
+  padding: 4px 20px 1 20px;
+  outline: none;
+  transition: color 0.15s, background 0.14s;
+}
+
+.layout-nav-btn.active,
+.layout-nav-btn:focus {
+  background: #7F4F24;
+  color: #fff;
+}
+
+.layout-nav-icon {
+  font-size: 22px;
+  margin-bottom: 3px;
+  color: #7F4F24;
+  transition: color 0.10s;
+}
+
+.layout-nav-icon.active,
+.layout-nav-btn.active .layout-nav-icon {
+  color: #fff;
+}
